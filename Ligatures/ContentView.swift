@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack() {
+            Text("fft").font(
+                .custom("Gelion", size: 54)
+            ).fontWeight(.bold)
+            Text("fft").font(
+                .custom("Gelion", size: 52)
+            ).fontWeight(.medium)
+            Text("fft").font(
+                .custom("Gelion", size: 48)
+            ).fontWeight(.regular)
+                .lineLimit(nil)
+        }
     }
 }
 
